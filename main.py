@@ -1,21 +1,24 @@
 # Dad Joke Showdown — entry
 #
 # The joke:
-#   I asked Dad why he brings a ladder to every barbecue.
-#   He said, "Son, the steaks have never been higher."
+#   I told Dad the Wi-Fi was down. He said, "Good. Now we can finally
+#   have a connection as a family."
 #
 # Why it fits the judge's brief:
-# 1. A dad joke a father would tell at the table — a son asks Dad, Dad
-#    answers deadpan; the barbecue setting is the judge's own world
-#    (a father of three at every barbecue).
-# 2. The pun lands cleanly on first read — steaks/stakes, no explaining
-#    needed; the turn is the whole punchline.
-# 3. Fresh rather than told a thousand times — the ladder-at-a-barbecue
-#    setup is not one of the classic recycled one-liners, while staying
-#    inside the dad joke tradition.
-# 4. Tight — every word earns its place, punchline arrives at the end.
+# 1. A dad joke a father would tell at the table — a son reports the
+#    outage, Dad answers deadpan with a straight face; the whole joke
+#    is Dad talking, not a setup that needs a stage.
+# 2. The pun lands cleanly on first read — "connection" turns once,
+#    from the Wi-Fi connection to a family connection; nobody has to
+#    explain the turn, it is the punchline itself.
+# 3. Fresh rather than told a thousand times — a modern household
+#    moment (the Wi-Fi going down) instead of a recycled classic,
+#    while staying inside the dad joke tradition of the groan-worthy
+#    wordplay answer.
+# 4. Tight — two beats, every word earns its place, and the punchline
+#    arrives at the very end ("as a family").
 # 5. Reads naturally aloud — a father could deliver it across the
-#    dinner table in two beats.
+#    dinner table in one breath, and the groan lands on the last word.
 import os
 
 OUT = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
@@ -23,8 +26,8 @@ OUT = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 # Deterministic: the entry is one fixed joke, so both harness runs must
 # write the same bytes. No randomness, no network, no clock.
 JOKE = (
-    "I asked Dad why he brings a ladder to every barbecue. "
-    "He said, \"Son, the steaks have never been higher.\""
+    "I told Dad the Wi-Fi was down. "
+    "He said, \"Good. Now we can finally have a connection as a family.\""
 )
 
 

@@ -10,11 +10,11 @@ on the pun, the groan, and the straight-faced delivery.
 
 `main.py` writes the joke to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`):
 
-> I asked Dad why he brings a ladder to every barbecue. He said, "Son, the steaks have never been higher."
+> I told Dad the Wi-Fi was down. He said, "Good. Now we can finally have a connection as a family."
 
-The pun is steaks/stakes, landing on first read with no explaining
-needed; the barbecue setting is the judge's own world, and the
-punchline arrives at the very end. 104 characters, one line.
+The pun is "connection" — the Wi-Fi connection turning into a family
+connection in a single deadpan answer. Two beats, no explaining needed,
+and the punchline lands on the very last word. 97 characters, one line.
 
 ## Run it
 
